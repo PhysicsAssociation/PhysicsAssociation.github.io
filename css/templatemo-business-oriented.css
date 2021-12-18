@@ -2,7 +2,7 @@
 
 TemplateMo 549 Business Oriented
 
-https://templatemo.com/tm-549-business-oriented
+https://templatemo.om/tm-549-business-oriented
 
 */
 
@@ -12,7 +12,12 @@ body {
     font-size: 18px;
     overflow-x: hidden;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 a { 
     transition: all 0.3s ease; 
     text-decoration: none;
