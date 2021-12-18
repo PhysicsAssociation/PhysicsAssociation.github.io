@@ -26,17 +26,21 @@ p {
     color: #666;
     line-height: 1.9;
     direction: rtl;
-    text-align: left;
+    text-align: right;
 }
 
-.tm-title-gray { color: #666; }
+.tm-title-gray { color: #666; text-align: center; }
 
 .tm-hr {
-    width: 240px;
+    width: 580px;
     border-top: 3px solid #0099FF;
     margin: 0;
 }
-
+.tm-hr-1 {
+    width: 700px;
+    border-top: 3px solid #0099FF;
+    margin: 0;
+}
 .tm-hr-s { width: 140px; }
 .tm-box-bordered { border: 1px solid #9C9D9E; }
 .container-fluid { max-width: 1480px; }
