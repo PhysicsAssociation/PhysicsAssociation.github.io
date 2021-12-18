@@ -25,6 +25,8 @@ button:focus { outline: none; }
 p {
     color: #666;
     line-height: 1.9;
+    direction: rtl;
+    text-align: left;
 }
 
 .tm-title-gray { color: #666; }
