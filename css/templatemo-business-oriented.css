@@ -6,9 +6,9 @@ https://templatemo.com/tm-549-business-oriented
 
 */
 
-
+@import url(fontiran.css);
 body {
-    font-family: "Calibri, sans-serif";
+    font-family: IRANSans;
     font-size: 18px;
     overflow-x: hidden;
 }
