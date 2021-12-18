@@ -6,9 +6,10 @@ https://templatemo.com/tm-549-business-oriented
 
 */
 
-@import url(fontiran.css);
+/*@import url(fontiran.css);*/
 body {
-    font-family: IRANSans;
+    font-family: IRANsans;
+    src: URL('IRANsans.ttf') format('truetype');
     font-size: 18px;
     overflow-x: hidden;
 }
