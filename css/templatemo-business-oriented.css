@@ -7,14 +7,14 @@ https://templatemo.om/tm-549-business-oriented
 */
 
 /*@import url(fontiran.css);*/
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&family=IBM+Plex+Sans+Arabic:wght@600&family=Lalezar&display=swap');
 /*@font-face {
     font-family: IRANSans;
     src: url(IRANSansWeb_Bold.woff);
   }*/
 body {
-    font-family: Lalezar;
-    font-size: 18px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 23px;
     overflow-x: hidden;
 }
 img{
