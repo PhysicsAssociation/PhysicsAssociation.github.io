@@ -228,7 +228,7 @@ p {
 
 .tm-intro { max-width: 580px; }
 h4 { font-size: 1.5rem; }
-.tm-text-primary { color: #0099FF; font-size: 17px;}
+.tm-text-primary { color: #0099FF; font-size: 25px;}
 .tm-text-primary-1 { color: #0099FF; font-size: 30spx;}
 .tm-text-primary-link { color: #0099FF; }
 .tm-text-primary-link:hover { color: rgb(15, 133, 211); }
@@ -245,7 +245,7 @@ h4 { font-size: 1.5rem; }
 
 .tm-strategy-img { margin-right: 30px; max-height: 180px; max-width: 180px;}
 .tm-services-img { margin-right: 40px; }
-.tm-strategy-text { max-width: 480px; font-size: 15px; }
+.tm-strategy-text { max-width: 480px; font-size: 20px; }
 .mb-6 { margin-bottom: 120px; }
 .mb-6-1 { }
 .mb-7 { margin-bottom: 140px; }
