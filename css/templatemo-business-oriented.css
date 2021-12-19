@@ -12,11 +12,14 @@ body {
     font-size: 18px;
     overflow-x: hidden;
 }
+img{
+    border: none;
+}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
   }
 a { 
     transition: all 0.3s ease; 
@@ -42,6 +45,11 @@ p {
 }
 .tm-hr-1 {
     width: 700px;
+    border-top: 3px solid #0099FF;
+    margin: 0;
+}
+.tm-hr-2 {
+    width: 1220px;
     border-top: 3px solid #0099FF;
     margin: 0;
 }
@@ -131,6 +139,7 @@ h4 { font-size: 1.5rem; }
 .tm-services-img { margin-right: 40px; }
 .tm-strategy-text { max-width: 480px; font-size: 15px; }
 .mb-6 { margin-bottom: 120px; }
+.mb-6-1 { }
 .mb-7 { margin-bottom: 140px; }
 .mb-8 { margin-bottom: 80px; }
 .mb-60 { margin-bottom: 60px; }
