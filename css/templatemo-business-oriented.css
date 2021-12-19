@@ -15,6 +15,10 @@ body {
 img{
     border: none;
 }
+address {
+    display: block;
+    font-style: italic;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -25,7 +29,31 @@ a {
     transition: all 0.3s ease; 
     text-decoration: none;
 }
-
+.employee:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+    }
+ .employee img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  transition: all .8s ease-in-out;
+  width: 100%; }
+  
+  /* style col -- no need */
+  
+  .row {
+    display:flex;
+  }
+  .col-md-3{
+    padding:5px;
+    width:25%;
+  }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
 a:hover { text-decoration: none; }
 button:focus { outline: none; }
 
