@@ -6,13 +6,14 @@ https://templatemo.om/tm-549-business-oriented
 
 */
 
-@import url(fontiran.css);
-@font-face {
+/*@import url(fontiran.css);*/
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+/*@font-face {
     font-family: IRANSans;
     src: url(IRANSansWeb_Bold.woff);
-  }
+  }*/
 body {
-    font-family: IRANSans;
+    font-family: Lalezar;
     font-size: 18px;
     overflow-x: hidden;
 }
