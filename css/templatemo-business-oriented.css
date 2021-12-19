@@ -49,7 +49,32 @@ a {
     padding:5px;
     width:25%;
   }
-.column {
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column-1 {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+.column-2 {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+.column-3 {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+.column-4 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column-5 {
     float: left;
     width: 33.33%;
     padding: 5px;
@@ -233,6 +258,8 @@ footer {
     width: 50px;
     height: 50px;
     margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tm-social-icon-2 {
