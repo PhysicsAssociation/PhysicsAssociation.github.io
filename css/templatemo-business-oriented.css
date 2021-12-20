@@ -14,7 +14,7 @@ https://templatemo.om/tm-549-business-oriented
   }*/
 body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-size: 23px;
+    font-size: 144%;
     overflow-x: hidden;
 }
 img{
@@ -32,42 +32,13 @@ address {
     color: white;
   }
   
-  /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  /* Centered text */
   .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:red;
-    size:80px
+    size: 100%
   }
 .center {
     display: block;
@@ -146,23 +117,23 @@ p {
 .tm-title-gray { color: #666; text-align: center; }
 
 .tm-hr {
-    width: 580px;
+    width: 100%;
     border-top: 3px solid #0099FF;
     margin: 0;
 }
 .tm-hr-1 {
-    width: 700px;
+    width: 100%;
     border-top: 3px solid #0099FF;
     margin: 0;
 }
 .tm-hr-2 {
-    width: 1220px;
+    width: 100%;
     border-top: 3px solid #0099FF;
     margin: 0;
 }
-.tm-hr-s { width: 140px; }
+.tm-hr-s { width: 17%; }
 .tm-box-bordered { border: 1px solid #9C9D9E; }
-.container-fluid { max-width: 1480px; }
+.container-fluid { max-width: 77%; }
 
 .tm-logo {
     position: absolute;
@@ -549,8 +520,4 @@ select:not([multiple]) {
         margin-right: 0;
         margin-bottom: 30px;
     }
-}
-
-.test {
-    pa
 }
