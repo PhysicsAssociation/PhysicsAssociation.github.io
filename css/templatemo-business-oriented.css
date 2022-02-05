@@ -62,7 +62,17 @@ a {
   width: 100%; }
   
   /* style col -- no need */
-  
+  .Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+}
+.Column {
+    display: table-cell;
+    height: 100%;
+    border-style: double;
+    background-color: #EDEEEF;
+}
   .row {
     display:flex;
   }
@@ -133,7 +143,7 @@ p {
 }
 .tm-hr-s { width: 17%; }
 .tm-box-bordered { border: 1px solid #9C9D9E; }
-.container-fluid { max-width: 77%; }
+.container-fluid { max-width: 77%; border-radius: 25px}
 
 .tm-logo {
     position: absolute;
@@ -163,6 +173,7 @@ p {
 #parallax-3 { min-height: 400px; }
 
 .parallax-window {    
+    border-radius: 25px;
     background: transparent;
     position: relative;
 }
