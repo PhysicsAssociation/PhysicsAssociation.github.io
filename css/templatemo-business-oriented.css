@@ -20,6 +20,12 @@ body {
 img{
     border: none;
 }
+.description {
+}
+  
+.description em {
+    color: #ff0000;
+}
 address {
     display: block;
     font-style: italic;
@@ -181,6 +187,13 @@ p {
     border-radius: 25px;
     background: transparent;
     position: relative;
+    height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #tm-main-nav {    
