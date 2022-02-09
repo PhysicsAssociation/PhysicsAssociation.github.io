@@ -52,19 +52,19 @@
                         <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="index.html">خانه</a>
+                                    <a class="nav-link tm-nav-link" href="index.html" id = "one">خانه</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="services.html">اخبار</a>
+                                    <a class="nav-link tm-nav-link" href="services.html" id = "two">اخبار</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="about.html">درباره ما</a>
+                                    <a class="nav-link tm-nav-link" href="about.html" id = "three">درباره ما</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="contact.html">ارتباط با ما</a>
+                                    <a class="nav-link tm-nav-link" href="contact.html" id = "four">ارتباط با ما</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link tm-nav-link" href="signup.html">کارگروه ها <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link tm-nav-link" href="signup.html" id = "five">کارگروه ها <span class="sr-only">(current)</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -73,6 +73,15 @@
             </div>
         </div>
     </div>
+    <script>
+        if (screen.width <= 1360) {
+            document.getElementById("one").style.fontSize = "70%";
+            document.getElementById("two").style.fontSize = "70%";
+            document.getElementById("three").style.fontSize = "70%";
+            document.getElementById("four").style.fontSize = "70%";
+            document.getElementById("five").style.fontSize = "70%";
+        }
+    </script>
     <div class="center">
         <div class="center">
             <section class="mb-10">
