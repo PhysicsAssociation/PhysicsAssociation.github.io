@@ -44,6 +44,35 @@
     </script>
 </head>
 <body>
+    <style>
+        .loader {
+                    position: fixed;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 9999;
+                    background-color: black;
+                }
+                .loader img{
+                    position: relative;
+                    left: 40%;
+                    top: 30%;
+                }
+        </style>
+        
+        <div class="loader"><img src="https://cdn.discordapp.com/attachments/921674210672250910/942327561831194665/monophy.gif"></div>
+        
+        <script>
+            window.onload = function() 
+            {
+                //display loader on page load 
+                $('.loader').fadeOut();
+                setTimeout( 20 * 1000);
+
+            }
+        
+        </script>
     <div id="parallax-1" class="parallax-window" data-parallax="scroll" data-image-src="https://cdn.discordapp.com/attachments/921674210672250910/938463430556397609/dbcd4d363df69b2d.jpg">
     </div>
     <div class="tm-nav-container-outer">
