@@ -21,23 +21,27 @@
                     width: 100%;
                     height: 100%;
                     z-index: 9999;
-                    background-color: black;
+                    background-color: #252624;
                 }
-                .loader img{
-                    position: relative;
-                    left: 40%;
-                    top: 30%;
-                }
+        .loader img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100%;
+            width: 100%;
+            max-height:100%;
+            max-width:100%;
+            object-fit: cover;
+        }
         </style>
         
-        <div class="loader"><img src="https://cdn.discordapp.com/attachments/943074803517112320/943074979233284096/animation.gif.gif"></div>
+        <div class="loader"><img src="https://cdn.discordapp.com/attachments/921674210672250910/944594468030513172/post-62718-Imgur-loading-gif-candidate-vo-OiXh.gif"></div>
         
         <script>
             window.onload = function() 
             {
                 //display loader on page load 
                 $('.loader').fadeOut();
-                setTimeout( 20 * 1000);
 
             }
         
